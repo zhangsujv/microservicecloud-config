@@ -1,0 +1,13 @@
+﻿spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microserviceclou-config-atsujv-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microserviceclou-config-atsujv-test
